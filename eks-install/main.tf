@@ -10,7 +10,7 @@ terraform {
     bucket         = "demo-terraform-eks-state-buckert-s3-72662
     key            = "terraform.tfstate"
     region         = "us-west-2"
-    dynamodb_table = "terraform-eks-state-locks"
+    dynamodb_table = "terraform-eks-state-locking-system"
     encrypt        = true
   }
 }
